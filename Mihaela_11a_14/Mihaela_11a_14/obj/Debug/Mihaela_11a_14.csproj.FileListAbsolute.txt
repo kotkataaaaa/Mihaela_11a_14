@@ -1,0 +1,16 @@
+C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\bin\Debug\Mihaela_11a_14.exe.config
+C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\bin\Debug\Mihaela_11a_14.exe
+C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\bin\Debug\Mihaela_11a_14.pdb
+C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\bin\Debug\EntityFramework.dll
+C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\bin\Debug\EntityFramework.xml
+C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.csproj.AssemblyReference.cache
+C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.csproj.CoreCompileInputs.cache
+C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_.76E70F98.Up2Date
+C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.exe
+C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.pdb
+C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.Migrations.FirstMk.resources
+C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.csproj.GenerateResource.cache
+C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.Form1.resources
+C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.Properties.Resources.resources
