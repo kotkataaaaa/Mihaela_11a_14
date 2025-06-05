@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\diank\\Desktop\\Mihaela_11a_14\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3627DC7F-AEF2-467A-A192-99EFF98CEFE6}|Mihaela_11a_14\\Mihaela_11a_14.csproj|c:\\users\\diank\\desktop\\mihaela_11a_14\\mihaela_11a_14\\dishtypeconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3627DC7F-AEF2-467A-A192-99EFF98CEFE6}|Mihaela_11a_14\\Mihaela_11a_14.csproj|solutionrelative:mihaela_11a_14\\dishtypeconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3627DC7F-AEF2-467A-A192-99EFF98CEFE6}|Mihaela_11a_14\\Mihaela_11a_14.csproj|C:\\Users\\diank\\Desktop\\Mihaela_11a_14\\mihaela_11a_14\\dishconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3627DC7F-AEF2-467A-A192-99EFF98CEFE6}|Mihaela_11a_14\\Mihaela_11a_14.csproj|solutionrelative:mihaela_11a_14\\dishconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3627DC7F-AEF2-467A-A192-99EFF98CEFE6}|Mihaela_11a_14\\Mihaela_11a_14.csproj|C:\\Users\\diank\\Desktop\\Mihaela_11a_14\\mihaela_11a_14\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3627DC7F-AEF2-467A-A192-99EFF98CEFE6}|Mihaela_11a_14\\Mihaela_11a_14.csproj|solutionrelative:mihaela_11a_14\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3627DC7F-AEF2-467A-A192-99EFF98CEFE6}|Mihaela_11a_14\\Mihaela_11a_14.csproj|C:\\Users\\diank\\Desktop\\Mihaela_11a_14\\mihaela_11a_14\\restaurantcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3627DC7F-AEF2-467A-A192-99EFF98CEFE6}|Mihaela_11a_14\\Mihaela_11a_14.csproj|solutionrelative:mihaela_11a_14\\restaurantcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3627DC7F-AEF2-467A-A192-99EFF98CEFE6}|Mihaela_11a_14\\Mihaela_11a_14.csproj|C:\\Users\\diank\\Desktop\\Mihaela_11a_14\\mihaela_11a_14\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3627DC7F-AEF2-467A-A192-99EFF98CEFE6}|Mihaela_11a_14\\Mihaela_11a_14.csproj|solutionrelative:mihaela_11a_14\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3627DC7F-AEF2-467A-A192-99EFF98CEFE6}|Mihaela_11a_14\\Mihaela_11a_14.csproj|C:\\Users\\diank\\Desktop\\Mihaela_11a_14\\mihaela_11a_14\\dishtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3627DC7F-AEF2-467A-A192-99EFF98CEFE6}|Mihaela_11a_14\\Mihaela_11a_14.csproj|solutionrelative:mihaela_11a_14\\dishtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DishTypeConnection.cs",
+              "DocumentMoniker": "C:\\Users\\diank\\Desktop\\Mihaela_11a_14\\Mihaela_11a_14\\DishTypeConnection.cs",
+              "RelativeDocumentMoniker": "Mihaela_11a_14\\DishTypeConnection.cs",
+              "ToolTip": "C:\\Users\\diank\\Desktop\\Mihaela_11a_14\\Mihaela_11a_14\\DishTypeConnection.cs",
+              "RelativeToolTip": "Mihaela_11a_14\\DishTypeConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T15:46:28.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DishConnection.cs",
+              "DocumentMoniker": "C:\\Users\\diank\\Desktop\\Mihaela_11a_14\\Mihaela_11a_14\\DishConnection.cs",
+              "RelativeDocumentMoniker": "Mihaela_11a_14\\DishConnection.cs",
+              "ToolTip": "C:\\Users\\diank\\Desktop\\Mihaela_11a_14\\Mihaela_11a_14\\DishConnection.cs",
+              "RelativeToolTip": "Mihaela_11a_14\\DishConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T15:45:48.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\diank\\Desktop\\Mihaela_11a_14\\Mihaela_11a_14\\Form1.cs",
+              "RelativeDocumentMoniker": "Mihaela_11a_14\\Form1.cs",
+              "ToolTip": "C:\\Users\\diank\\Desktop\\Mihaela_11a_14\\Mihaela_11a_14\\Form1.cs [Design]",
+              "RelativeToolTip": "Mihaela_11a_14\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T16:14:37.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RestaurantContext.cs",
+              "DocumentMoniker": "C:\\Users\\diank\\Desktop\\Mihaela_11a_14\\Mihaela_11a_14\\RestaurantContext.cs",
+              "RelativeDocumentMoniker": "Mihaela_11a_14\\RestaurantContext.cs",
+              "ToolTip": "C:\\Users\\diank\\Desktop\\Mihaela_11a_14\\Mihaela_11a_14\\RestaurantContext.cs",
+              "RelativeToolTip": "Mihaela_11a_14\\RestaurantContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T16:01:42.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DishType.cs",
+              "DocumentMoniker": "C:\\Users\\diank\\Desktop\\Mihaela_11a_14\\Mihaela_11a_14\\DishType.cs",
+              "RelativeDocumentMoniker": "Mihaela_11a_14\\DishType.cs",
+              "ToolTip": "C:\\Users\\diank\\Desktop\\Mihaela_11a_14\\Mihaela_11a_14\\DishType.cs",
+              "RelativeToolTip": "Mihaela_11a_14\\DishType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:58:54.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dish.cs",
+              "DocumentMoniker": "C:\\Users\\diank\\Desktop\\Mihaela_11a_14\\Mihaela_11a_14\\Dish.cs",
+              "RelativeDocumentMoniker": "Mihaela_11a_14\\Dish.cs",
+              "ToolTip": "C:\\Users\\diank\\Desktop\\Mihaela_11a_14\\Mihaela_11a_14\\Dish.cs",
+              "RelativeToolTip": "Mihaela_11a_14\\Dish.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:58:40.216Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
