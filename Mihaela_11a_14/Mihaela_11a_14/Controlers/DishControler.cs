@@ -1,12 +1,13 @@
-﻿using System;
+﻿using Mihaela_11a_14.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mihaela_11a_14
+namespace Mihaela_11a_14.Controlers
 {
-    public class DishConnection
+    public class DishControler
     {
         private RestaurantContext restaurantContext = new RestaurantContext(); 
 

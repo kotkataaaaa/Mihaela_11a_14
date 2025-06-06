@@ -1,13 +1,14 @@
-﻿using System;
+﻿using Mihaela_11a_14.Data;
+using System;
 using System.Collections.Generic;
 using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mihaela_11a_14
+namespace Mihaela_11a_14.Controlers
 {
-    public class DishTypeConnection
+    public class DishTypeControler
     {
         private RestaurantContext restaurantContext = new RestaurantContext(); 
         public List<DishType> GetAllDishTypes()

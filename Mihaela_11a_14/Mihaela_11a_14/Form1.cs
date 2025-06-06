@@ -21,5 +21,10 @@ namespace Mihaela_11a_14
         {
 
         }
+
+        private void cmbDishType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

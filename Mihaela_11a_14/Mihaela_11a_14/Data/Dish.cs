@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mihaela_11a_14
+namespace Mihaela_11a_14.Data
 {
     public  class Dish
     {
