@@ -11,11 +11,14 @@ namespace Mihaela_11a_14.Data
     public class RestaurantContext: DbContext
     {
         public RestaurantContext() : base("RestaurantContext")
-        {
-
+        { 
+        
         }
-        public DbSet<Dish> Dishes { get; set; }
-        public DbSet<DishType> DishTypes { get; set; }
+        
+          public DbSet<Dish> Dishes { get; set; }
+          public DbSet<DishType> DishTypes { get; set; }
+        
+        
 
     }
 }

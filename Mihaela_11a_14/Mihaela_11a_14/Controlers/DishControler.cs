@@ -16,14 +16,14 @@ namespace Mihaela_11a_14.Controlers
            Dish findedDish = restaurantContext.Dishes.Find(id);
            if (findedDish !=null)
            {
-              restaurantContext.Entry(findedDish).Reference(x => x.DishTypes).Load();
+             restaurantContext.Entry(findedDish).Reference(x => x.DishTypes).Load();
            }
             return findedDish;
         }
 
         public List<Dish> GetAll()
          {
-             return restaurantContext.Dishes.Include("DishType").ToList();
+             return restaurantContext.Dishes.Include("DishTypes").ToList();
          }
 
         public void Create(Dish dish) 

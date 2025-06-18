@@ -1,4 +1,6 @@
-﻿namespace Mihaela_11a_14
+﻿using System;
+
+namespace Mihaela_11a_14
 {
     partial class Form1
     {
@@ -40,11 +42,11 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
-<<<<<<< HEAD
-=======
             this.lblVid = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
->>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
+            this.btnFind = new System.Windows.Forms.Button();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.lblId = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblName
@@ -52,34 +54,21 @@
             this.lblName.Font = new System.Drawing.Font("Verdana", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblName.ForeColor = System.Drawing.Color.Black;
             this.lblName.Image = global::Mihaela_11a_14.Properties.Resources.res_3208960c71a03d5ab31fbdfa8c869caf;
-<<<<<<< HEAD
-            this.lblName.Location = new System.Drawing.Point(32, 32);
+            this.lblName.Location = new System.Drawing.Point(2, 23);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(142, 54);
-=======
-            this.lblName.Location = new System.Drawing.Point(24, 26);
-            this.lblName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(106, 44);
->>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
+            this.lblName.Size = new System.Drawing.Size(141, 54);
             this.lblName.TabIndex = 0;
             this.lblName.Text = "Име на ястието";
             this.lblName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblName.Click += new System.EventHandler(this.lblName_Click);
             // 
             // lblDesc
             // 
             this.lblDesc.Font = new System.Drawing.Font("Verdana", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblDesc.Image = global::Mihaela_11a_14.Properties.Resources.res_3208960c71a03d5ab31fbdfa8c869caf;
-<<<<<<< HEAD
-            this.lblDesc.Location = new System.Drawing.Point(32, 119);
+            this.lblDesc.Location = new System.Drawing.Point(2, 106);
             this.lblDesc.Name = "lblDesc";
-            this.lblDesc.Size = new System.Drawing.Size(142, 54);
-=======
-            this.lblDesc.Location = new System.Drawing.Point(24, 97);
-            this.lblDesc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblDesc.Name = "lblDesc";
-            this.lblDesc.Size = new System.Drawing.Size(106, 44);
->>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
+            this.lblDesc.Size = new System.Drawing.Size(141, 54);
             this.lblDesc.TabIndex = 1;
             this.lblDesc.Text = "Описание";
             this.lblDesc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -89,16 +78,9 @@
             // 
             this.lblPrice.Font = new System.Drawing.Font("Verdana", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblPrice.Image = global::Mihaela_11a_14.Properties.Resources.res_3208960c71a03d5ab31fbdfa8c869caf;
-<<<<<<< HEAD
-            this.lblPrice.Location = new System.Drawing.Point(33, 207);
+            this.lblPrice.Location = new System.Drawing.Point(1, 179);
             this.lblPrice.Name = "lblPrice";
-            this.lblPrice.Size = new System.Drawing.Size(142, 54);
-=======
-            this.lblPrice.Location = new System.Drawing.Point(25, 168);
-            this.lblPrice.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblPrice.Name = "lblPrice";
-            this.lblPrice.Size = new System.Drawing.Size(106, 44);
->>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
+            this.lblPrice.Size = new System.Drawing.Size(141, 54);
             this.lblPrice.TabIndex = 2;
             this.lblPrice.Text = "Цена";
             this.lblPrice.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -107,16 +89,9 @@
             // 
             this.lblWeigh.Font = new System.Drawing.Font("Verdana", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblWeigh.Image = global::Mihaela_11a_14.Properties.Resources.res_3208960c71a03d5ab31fbdfa8c869caf;
-<<<<<<< HEAD
-            this.lblWeigh.Location = new System.Drawing.Point(33, 309);
+            this.lblWeigh.Location = new System.Drawing.Point(1, 253);
             this.lblWeigh.Name = "lblWeigh";
-            this.lblWeigh.Size = new System.Drawing.Size(142, 54);
-=======
-            this.lblWeigh.Location = new System.Drawing.Point(25, 251);
-            this.lblWeigh.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblWeigh.Name = "lblWeigh";
-            this.lblWeigh.Size = new System.Drawing.Size(106, 44);
->>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
+            this.lblWeigh.Size = new System.Drawing.Size(141, 54);
             this.lblWeigh.TabIndex = 3;
             this.lblWeigh.Text = "Грамаж";
             this.lblWeigh.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -126,164 +101,114 @@
             this.txtName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.txtName.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.txtName.ForeColor = System.Drawing.SystemColors.HotTrack;
-<<<<<<< HEAD
-            this.txtName.Location = new System.Drawing.Point(235, 32);
+            this.txtName.Location = new System.Drawing.Point(199, 23);
+            this.txtName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtName.Multiline = true;
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(142, 54);
-=======
-            this.txtName.Location = new System.Drawing.Point(176, 26);
-            this.txtName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txtName.Multiline = true;
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(108, 45);
->>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
+            this.txtName.Size = new System.Drawing.Size(143, 54);
             this.txtName.TabIndex = 4;
+            this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
             // 
             // txtDesc
             // 
             this.txtDesc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.txtDesc.ForeColor = System.Drawing.SystemColors.HotTrack;
-<<<<<<< HEAD
-            this.txtDesc.Location = new System.Drawing.Point(235, 119);
+            this.txtDesc.Location = new System.Drawing.Point(199, 106);
+            this.txtDesc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDesc.Multiline = true;
             this.txtDesc.Name = "txtDesc";
-            this.txtDesc.Size = new System.Drawing.Size(142, 54);
-=======
-            this.txtDesc.Location = new System.Drawing.Point(176, 97);
-            this.txtDesc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txtDesc.Multiline = true;
-            this.txtDesc.Name = "txtDesc";
-            this.txtDesc.Size = new System.Drawing.Size(108, 45);
->>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
+            this.txtDesc.Size = new System.Drawing.Size(143, 54);
             this.txtDesc.TabIndex = 5;
+            this.txtDesc.TextChanged += new System.EventHandler(this.txtDesc_TextChanged);
             // 
             // txtPrice
             // 
             this.txtPrice.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.txtPrice.ForeColor = System.Drawing.SystemColors.HotTrack;
-<<<<<<< HEAD
-            this.txtPrice.Location = new System.Drawing.Point(235, 207);
+            this.txtPrice.Location = new System.Drawing.Point(199, 179);
+            this.txtPrice.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPrice.Multiline = true;
             this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(142, 54);
-=======
-            this.txtPrice.Location = new System.Drawing.Point(176, 168);
-            this.txtPrice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txtPrice.Multiline = true;
-            this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(108, 45);
->>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
+            this.txtPrice.Size = new System.Drawing.Size(143, 54);
             this.txtPrice.TabIndex = 6;
             // 
             // txtWeigh
             // 
             this.txtWeigh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.txtWeigh.ForeColor = System.Drawing.SystemColors.HotTrack;
-<<<<<<< HEAD
-            this.txtWeigh.Location = new System.Drawing.Point(235, 309);
+            this.txtWeigh.Location = new System.Drawing.Point(199, 253);
+            this.txtWeigh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtWeigh.Multiline = true;
             this.txtWeigh.Name = "txtWeigh";
-            this.txtWeigh.Size = new System.Drawing.Size(142, 54);
-=======
-            this.txtWeigh.Location = new System.Drawing.Point(176, 251);
-            this.txtWeigh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txtWeigh.Multiline = true;
-            this.txtWeigh.Name = "txtWeigh";
-            this.txtWeigh.Size = new System.Drawing.Size(108, 45);
->>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
+            this.txtWeigh.Size = new System.Drawing.Size(143, 54);
             this.txtWeigh.TabIndex = 7;
             // 
             // cmbDishType
             // 
-<<<<<<< HEAD
-            this.cmbDishType.FormattingEnabled = true;
-            this.cmbDishType.Location = new System.Drawing.Point(494, 62);
-            this.cmbDishType.Name = "cmbDishType";
-            this.cmbDishType.Size = new System.Drawing.Size(235, 24);
-            this.cmbDishType.TabIndex = 8;
-=======
             this.cmbDishType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.cmbDishType.FormattingEnabled = true;
-            this.cmbDishType.Location = new System.Drawing.Point(163, 349);
-            this.cmbDishType.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmbDishType.Items.AddRange(new object[] {
+            "Салати ",
+            "Предястия",
+            "Основно ястие",
+            "Супа",
+            "Аламинут ",
+            "Десерт"});
+            this.cmbDishType.Location = new System.Drawing.Point(199, 350);
+            this.cmbDishType.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmbDishType.Name = "cmbDishType";
-            this.cmbDishType.Size = new System.Drawing.Size(121, 21);
+            this.cmbDishType.Size = new System.Drawing.Size(143, 24);
             this.cmbDishType.TabIndex = 8;
             this.cmbDishType.SelectedIndexChanged += new System.EventHandler(this.cmbDishType_SelectedIndexChanged);
->>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
             // 
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnAdd.Image = global::Mihaela_11a_14.Properties.Resources.res_3208960c71a03d5ab31fbdfa8c869caf;
-<<<<<<< HEAD
-            this.btnAdd.Location = new System.Drawing.Point(479, 380);
+            this.btnAdd.Location = new System.Drawing.Point(416, 393);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(150, 60);
-=======
-            this.btnAdd.Location = new System.Drawing.Point(359, 309);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(112, 49);
->>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
+            this.btnAdd.Size = new System.Drawing.Size(179, 87);
             this.btnAdd.TabIndex = 9;
             this.btnAdd.Text = "Добави";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnEdit
             // 
             this.btnEdit.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnEdit.Image = global::Mihaela_11a_14.Properties.Resources.res_3208960c71a03d5ab31fbdfa8c869caf;
-<<<<<<< HEAD
-            this.btnEdit.Location = new System.Drawing.Point(639, 442);
+            this.btnEdit.Location = new System.Drawing.Point(702, 393);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(150, 60);
-=======
-            this.btnEdit.Location = new System.Drawing.Point(479, 359);
-            this.btnEdit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(112, 49);
->>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
+            this.btnEdit.Size = new System.Drawing.Size(177, 87);
             this.btnEdit.TabIndex = 10;
             this.btnEdit.Text = "Промени";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnDelete
             // 
             this.btnDelete.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnDelete.Image = global::Mihaela_11a_14.Properties.Resources.res_3208960c71a03d5ab31fbdfa8c869caf;
-<<<<<<< HEAD
-            this.btnDelete.Location = new System.Drawing.Point(747, 517);
+            this.btnDelete.Location = new System.Drawing.Point(550, 528);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(150, 60);
-=======
-            this.btnDelete.Location = new System.Drawing.Point(560, 420);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(112, 49);
->>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
+            this.btnDelete.Size = new System.Drawing.Size(186, 84);
             this.btnDelete.TabIndex = 11;
             this.btnDelete.Text = "Изтрий";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click_1);
             // 
-<<<<<<< HEAD
-            // Form1
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Mihaela_11a_14.Properties.Resources.меню__1_;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(936, 608);
-=======
             // lblVid
             // 
             this.lblVid.Font = new System.Drawing.Font("Verdana", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblVid.Image = global::Mihaela_11a_14.Properties.Resources.res_3208960c71a03d5ab31fbdfa8c869caf;
-            this.lblVid.Location = new System.Drawing.Point(25, 326);
+            this.lblVid.Location = new System.Drawing.Point(1, 331);
+            this.lblVid.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVid.Name = "lblVid";
             this.lblVid.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblVid.Size = new System.Drawing.Size(106, 44);
+            this.lblVid.Size = new System.Drawing.Size(141, 54);
             this.lblVid.TabIndex = 12;
             this.lblVid.Text = "Вид на ястието ";
             this.lblVid.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -292,21 +217,60 @@
             // 
             this.listBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(325, 26);
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(351, 23);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(365, 212);
+            this.listBox1.Size = new System.Drawing.Size(679, 340);
             this.listBox1.TabIndex = 13;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
+            // btnFind
+            // 
+            this.btnFind.BackgroundImage = global::Mihaela_11a_14.Properties.Resources.меню__1_;
+            this.btnFind.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnFind.Image = global::Mihaela_11a_14.Properties.Resources.res_3208960c71a03d5ab31fbdfa8c869caf;
+            this.btnFind.Location = new System.Drawing.Point(229, 521);
+            this.btnFind.Name = "btnFind";
+            this.btnFind.Size = new System.Drawing.Size(178, 91);
+            this.btnFind.TabIndex = 15;
+            this.btnFind.Text = "Намери";
+            this.btnFind.UseVisualStyleBackColor = true;
+            this.btnFind.Click += new System.EventHandler(this.btnFind_Click);
+            // 
+            // txtId
+            // 
+            this.txtId.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.txtId.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.txtId.Location = new System.Drawing.Point(203, 425);
+            this.txtId.Multiline = true;
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(141, 54);
+            this.txtId.TabIndex = 17;
+            // 
+            // lblId
+            // 
+            this.lblId.Font = new System.Drawing.Font("Verdana", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblId.Image = global::Mihaela_11a_14.Properties.Resources.res_3208960c71a03d5ab31fbdfa8c869caf;
+            this.lblId.Location = new System.Drawing.Point(0, 426);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(141, 54);
+            this.lblId.TabIndex = 16;
+            this.lblId.Text = "Въведи id ";
+            this.lblId.Click += new System.EventHandler(this.lblId_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Mihaela_11a_14.Properties.Resources.меню__1_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(702, 494);
+            this.ClientSize = new System.Drawing.Size(1037, 681);
+            this.Controls.Add(this.txtId);
+            this.Controls.Add(this.lblId);
+            this.Controls.Add(this.btnFind);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.lblVid);
->>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnAdd);
@@ -319,15 +283,10 @@
             this.Controls.Add(this.lblPrice);
             this.Controls.Add(this.lblDesc);
             this.Controls.Add(this.lblName);
-<<<<<<< HEAD
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Меню";
             this.Load += new System.EventHandler(this.Form1_Load);
-=======
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "Form1";
-            this.Text = "Меню";
->>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -347,10 +306,10 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Button btnDelete;
-<<<<<<< HEAD
-=======
         private System.Windows.Forms.Label lblVid;
         private System.Windows.Forms.ListBox listBox1;
->>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
+        private System.Windows.Forms.Button btnFind;
+        private System.Windows.Forms.TextBox txtId;
+        private System.Windows.Forms.Label lblId;
     }
 }
