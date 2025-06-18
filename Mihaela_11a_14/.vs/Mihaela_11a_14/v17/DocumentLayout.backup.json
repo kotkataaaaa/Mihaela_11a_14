@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\diank\\Documents\\GitHub\\Mihaela_11a_14\\Mihaela_11a_14\\",
   "Documents": [
     {
@@ -25,6 +26,17 @@
     {
       "AbsoluteMoniker": "D:0:0:{3627DC7F-AEF2-467A-A192-99EFF98CEFE6}|Mihaela_11a_14\\Mihaela_11a_14.csproj|C:\\Users\\diank\\Documents\\GitHub\\Mihaela_11a_14\\Mihaela_11a_14\\mihaela_11a_14\\dishconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3627DC7F-AEF2-467A-A192-99EFF98CEFE6}|Mihaela_11a_14\\Mihaela_11a_14.csproj|solutionrelative:mihaela_11a_14\\dishconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\mihaela11a\\Mihaela_11a_14\\Mihaela_11a_14\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3627DC7F-AEF2-467A-A192-99EFF98CEFE6}|Mihaela_11a_14\\Mihaela_11a_14.csproj|C:\\mihaela11a\\Mihaela_11a_14\\Mihaela_11a_14\\mihaela_11a_14\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3627DC7F-AEF2-467A-A192-99EFF98CEFE6}|Mihaela_11a_14\\Mihaela_11a_14.csproj|solutionrelative:mihaela_11a_14\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3627DC7F-AEF2-467A-A192-99EFF98CEFE6}|Mihaela_11a_14\\Mihaela_11a_14.csproj|c:\\mihaela11a\\mihaela_11a_14\\mihaela_11a_14\\mihaela_11a_14\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3627DC7F-AEF2-467A-A192-99EFF98CEFE6}|Mihaela_11a_14\\Mihaela_11a_14.csproj|solutionrelative:mihaela_11a_14\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
     }
   ],
   "DocumentGroupContainers": [
@@ -38,6 +50,7 @@
           "Children": [
             {
               "$type": "Bookmark",
+<<<<<<< HEAD
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
@@ -55,10 +68,34 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T15:46:28.646Z",
+=======
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\mihaela11a\\Mihaela_11a_14\\Mihaela_11a_14\\Mihaela_11a_14\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "Mihaela_11a_14\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\mihaela11a\\Mihaela_11a_14\\Mihaela_11a_14\\Mihaela_11a_14\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "Mihaela_11a_14\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T09:52:42.591Z",
+>>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 5,
               "Title": "DishConnection.cs",
               "DocumentMoniker": "C:\\Users\\diank\\Documents\\GitHub\\Mihaela_11a_14\\Mihaela_11a_14\\Mihaela_11a_14\\DishConnection.cs",
@@ -119,6 +156,17 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T15:58:40.216Z",
               "EditorCaption": ""
+=======
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\mihaela11a\\Mihaela_11a_14\\Mihaela_11a_14\\Mihaela_11a_14\\Form1.cs",
+              "RelativeDocumentMoniker": "Mihaela_11a_14\\Form1.cs",
+              "ToolTip": "C:\\mihaela11a\\Mihaela_11a_14\\Mihaela_11a_14\\Mihaela_11a_14\\Form1.cs [Design]*",
+              "RelativeToolTip": "Mihaela_11a_14\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T16:14:37.256Z",
+              "EditorCaption": " [Design]"
+>>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
             }
           ]
         }

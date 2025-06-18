@@ -22,7 +22,11 @@ namespace Mihaela_11a_14
 
         }
 
+<<<<<<< HEAD
         private void Form1_Load(object sender, EventArgs e)
+=======
+        private void cmbDishType_SelectedIndexChanged(object sender, EventArgs e)
+>>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
         {
 
         }

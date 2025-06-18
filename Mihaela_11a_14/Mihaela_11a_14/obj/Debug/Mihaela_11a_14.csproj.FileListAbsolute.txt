@@ -14,3 +14,23 @@ C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_1
 C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.csproj.GenerateResource.cache
 C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.Form1.resources
 C:\Users\diank\Desktop\Mihaela\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.Properties.Resources.resources
+<<<<<<< HEAD
+=======
+C:\mihaela11a\Mihaela_11a_14\Mihaela_11a_14\Mihaela_11a_14\bin\Debug\Mihaela_11a_14.exe.config
+C:\mihaela11a\Mihaela_11a_14\Mihaela_11a_14\Mihaela_11a_14\bin\Debug\Mihaela_11a_14.exe
+C:\mihaela11a\Mihaela_11a_14\Mihaela_11a_14\Mihaela_11a_14\bin\Debug\Mihaela_11a_14.pdb
+C:\mihaela11a\Mihaela_11a_14\Mihaela_11a_14\Mihaela_11a_14\bin\Debug\EntityFramework.dll
+C:\mihaela11a\Mihaela_11a_14\Mihaela_11a_14\Mihaela_11a_14\bin\Debug\EntityFramework.SqlServer.dll
+C:\mihaela11a\Mihaela_11a_14\Mihaela_11a_14\Mihaela_11a_14\bin\Debug\EntityFramework.xml
+C:\mihaela11a\Mihaela_11a_14\Mihaela_11a_14\Mihaela_11a_14\bin\Debug\EntityFramework.SqlServer.xml
+C:\mihaela11a\Mihaela_11a_14\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.csproj.AssemblyReference.cache
+C:\mihaela11a\Mihaela_11a_14\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.exe.config
+C:\mihaela11a\Mihaela_11a_14\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.Form1.resources
+C:\mihaela11a\Mihaela_11a_14\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.Migrations.FirstMk.resources
+C:\mihaela11a\Mihaela_11a_14\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.Properties.Resources.resources
+C:\mihaela11a\Mihaela_11a_14\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.csproj.GenerateResource.cache
+C:\mihaela11a\Mihaela_11a_14\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.csproj.CoreCompileInputs.cache
+C:\mihaela11a\Mihaela_11a_14\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_.76E70F98.Up2Date
+C:\mihaela11a\Mihaela_11a_14\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.exe
+C:\mihaela11a\Mihaela_11a_14\Mihaela_11a_14\Mihaela_11a_14\obj\Debug\Mihaela_11a_14.pdb
+>>>>>>> 636cc60a0e45fddf1ace4a8d21f183a159c1fe24
